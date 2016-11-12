@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/cliff.jpg");
+    background-image: url("images/tunnel.jpg");
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,25 +12,44 @@ body {
   height: 50px;
 }
 .footer{
-  margin-top: 300px;
   opacity: 0.5;
-  width:auto;
-  height: 100px;
+  width: auto;
+  height: 150px;
 }
 .story{
-  margin-left: 75px;
-  margin-right:75px;
-  color: black;
-  width: auto;
+  margin-top: 230px;
+  margin-left: 280px;
+  color: white;
+  width: 1000px;
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .indexes{
+  margin-top: 250px;
+  margin-left: 360px;
+  color: white;
   width: auto;
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.contact{
+  margin-top: 250px;
+  margin-left: 280px;
+  color: white;
+}
+.projectLinks p{
+  color: white;
+  font-weight: 600;
+}
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 100px;
+  margin-left: 475px;
+  color: white;
+  max-width: 500px;
+  position: relative;
 }
 h1, p{
   margin: 15px;
@@ -74,13 +93,16 @@ background-color:#4CAF50;
   width: 25px;
 }
 .mediumimage{
-  width: 175px;
+  width: 150px;
 }
 .socialMedia{
   margin-left: 525px;
 }
 .nav1{
   margin-left: 400px;
+}
+.nav2{
+  margin-left: 200px;
 }
 .navbar-inner{
   background: transparent;
@@ -111,6 +133,7 @@ h4{
 }
 .form{
   margin-left: 15px;
+  color: black;
 }
 h2{
   margin-left: 15px;
@@ -131,9 +154,6 @@ h2{
 .dropdown-menu li a{
   font-size: 12px;
 }
-.sliderBackground{
-  background-color: inherit;
-}
 .sliderTitle{
   font-weight: bolder;
   font-stretch: ultra-expanded;
@@ -142,12 +162,7 @@ h2{
 body {font-family: Verdana,sans-serif;margin:0}
 .mySlides {display:none}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 500px;
-  position: relative;
-  margin: auto;
-}
+
 
 /* Next & previous buttons */
 .prev, .next {
